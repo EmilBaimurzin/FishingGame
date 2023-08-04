@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/game_over"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="45dp">
+
+        <com.fish.game.core.library.CustomImageButton
+            android:id="@+id/button_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/home"/>
+
+        <com.fish.game.core.library.CustomImageButton
+            android:id="@+id/button_restart"
+            android:layout_width="150dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="60dp"
+            android:src="@drawable/restart"/>
+
+    </LinearLayout>
+
+</FrameLayout>
